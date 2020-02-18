@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+ls -la /app/.apt/usr/lib/x86_64-linux-gnu/libmecab.so.2
+ls -la /app/.apt/usr/lib/mecab/mecab-dict-index
+
 cat <<EOF
 ---
 EOF
