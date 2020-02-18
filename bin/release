@@ -1,15 +1,5 @@
 #!/usr/bin/env bash
 
-echo 'debug logs'
-
-echo $PATH
-echo $LD_LIBRARY_PATH
-echo $LIBRARY_PATH
-echo $INCLUDE_PATH
-
-ls -la /app
-ls -la /app/.apt/
-
 cat <<EOF
 ---
 EOF
