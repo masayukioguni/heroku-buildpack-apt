@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
 
-which mecab
-ls -la /app/.apt/usr/lib/x86_64-linux-gnu/libmecab.so.2
-ls -la /app/.apt/usr/lib/mecab/mecab-dict-index
+echo 'debug logs'
+
+echo $PATH
+echo $LD_LIBRARY_PATH
+echo $LIBRARY_PATH
+echo $INCLUDE_PATH
+
+ls -la /app
+ls -la /app/.apt/
 
 cat <<EOF
 ---
